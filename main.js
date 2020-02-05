@@ -15,225 +15,6 @@ var project={
 
 
 
-
-
-// var counter =0;
-//  function lightning(){
-    
-//     counter+=1;
-//     // console.log(counter)
-    
-//     if(counter==1){
-//        document.querySelector("#lightning").style.display="block"; 
-//         // setTimeout(function(){alert("⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️An average duration of time for a stroke of lightning is about 30 microseconds.");},300);
-// //         var lightning=document.createElement("img")
-// //   var container=document.querySelector(".sandcontainer")      
-// // container.appendChild(lightning);
-// // lightning.src = project.image1;
-// // lightning.className= "lightningjava"
-// // lightning.innerHTML
-
-// ;
-
-
-//     }
-    
-//     if(counter==2){
-     
-
-//         document.querySelector("#lightning").src=project.image2;
-//         document.querySelector("#lightning").style.top=-600+"vh";
-//         document.body.style.filter="invert(100%)"
-//         //    setTimeout(function(){alert("⚡️⚡️⚡️电光石火⚡️⚡️⚡️是闪电的光，燧石的火。“电光”常用作比喻世间事物生灭变幻，无常迅速，现多形容事物像闪电和石火一样一瞬间就消逝。");},200);
-//     }
-// if(counter==3){
-//     alert("Try double-click!")
-//     document.querySelector("#lightning").style.display="none";
-//     document.body.style.filter="none"
-   
-
-
-        
-//         }
-    
-// }
-
-
-    
-
-
-// function flower(){
-
-//     document.querySelector("#sand").src="pictures/flower1.jpeg" 
-//     document.querySelector("#sand").style.filter="invert(100%)"
-//     document.querySelector("#poem1").style.display="none";
-//     document.querySelector("#poem2").style.display="none";
-//     // console.log("doubleclick")
-    
-// }
-
-
-
-
-
-
-// window.setInterval(function(){
-//     myDate()  }, 1000);
-
-// function myDate(){
-//  var today = new Date();
-//   var h = today.getHours();
-//   var m = today.getMinutes();
-//   var s = today.getSeconds();
-//   var myDate = document.querySelector("#time")
-//   myDate.innerHTML =
-//   h + ":" + m + ":" + s;}
-  
-
-
-// var execute1=0;
-// var execute2=0;
-
-
-// function poem(){
-
-//  var poemtext1 = document.createElement("p")
-//     var container1= document.querySelector("#poem1")
-// container1.appendChild(poemtext1);
-
-
-// var poemtext2 = document.createElement("p")
-//     var container2= document.querySelector("#poem2")
-// container2.appendChild(poemtext2);
-
-// if(i==1){
-
-//     document.querySelector("#time").style="color:white"
-//    document.querySelector("#title").style="color:blue"
-//     // console.log("poem work")
-//     // document.querySelector(".poem").removeChild();
-
-// }
-
-// if(i==3 && execute1==0 && execute2==0){
-//     execute1 =1;
-//     // console.log("poem work3") 
-   
-    
-//    poemtext1.innerHTML=project.poem;
-//    poemtext1.style.color="white"
-// //    poemtext.className="poemtext1"
-   
-
-//    return execute1;
-   
-
-// }
-
-
-// if(i==3 && execute1==0 && execute2==1){
-// execute1 =1;
- 
-//     document.querySelector("#poem2").style.display="none";
-    
-//     // console.log("poem work3") 
-
-
-//    poemtext1.innerHTML=project.poem;
-//    poemtext1.style.color="white"
-   
-   
-
-//    return execute1;
-   
-
-// }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// if(i==3){
-// document.querySelector("#time").style="color:blue"
-//    document.querySelector("#title").style="color:red"
-
-
-// }
-// if(i==4){
-  
-//     document.querySelector("#time").style="color:white"
-//    document.querySelector("#title").style="color:"
-    
-//     }
-
-
-
-
-// if(i==4 && execute1==0 &&execute2==0 ){
-//    execute2=1;
-//     console.log("poem work3") 
-
-//     poemtext2.innerHTML=project.poem2;
-  
- 
-
-
-  
-//    return execute2;
-// }
-
-
-
-// if(i==4 && execute1==1 && execute2==0 ){
-//     execute2=1;
-//      console.log("poem work3") 
-
-//      document.querySelector("#poem1").style.display="none";
-
-// //  document.querySelector(".poem").removeChild();
-//      poemtext2.innerHTML=project.poem2;
-//     // poemtext.classname="poemtext2"
-//     return execute2;
-//  }
-
-
-// if(i==3 && execute1==1 && execute2==1){
-
-//     document.querySelector("#poem1").style.display="block";
-//     document.querySelector("#poem2").style.display="none";
-
-// }
-
-// if(i==4 && execute1==1 && execute2==1){
-
-//     document.querySelector("#poem1").style.display="none";
-//     document.querySelector("#poem2").style.display="block";
-
-// }
-
-
-
-
-
-
-
-
-
-
-
-//  }
-
-
-
 /*//////////////////////////dotgrid/////////////////////////////////////*////
 var project={
     text:".",
@@ -541,6 +322,18 @@ function horse(){
 });
   
 }
+
+function number3(){
+  $("#number3").click(function number3() {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $("#pagetwo").offset().top
+    }, 1000);
+});
+  
+}
+
+
+
 
 function horseback(){
   $("#horsetext").click(function horseback() {
